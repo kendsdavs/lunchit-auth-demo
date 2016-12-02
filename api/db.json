@@ -1,0 +1,21 @@
+{
+  "circles": [],
+  "favorites": [
+    {
+      "name": "Whole Foods",
+      "id": 4
+    },
+    {
+      "name": "Traders",
+      "id": 5
+    },
+    {
+      "name": "Nothin Bundt Cake",
+      "id": 7
+    },
+    {
+      "name": "Liberty Tavern",
+      "id": 8
+    }
+  ]
+}
