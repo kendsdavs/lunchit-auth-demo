@@ -23,7 +23,7 @@ const App = React.createClass({
   },
   render() {
     return (
-
+//HashRouter needs to be used for consistent callback url to Auth0.  This is bug.
       <HashRouter>
         <div>
           {this.state.loggedIn === false ? <Redirect to="/" /> : null }
