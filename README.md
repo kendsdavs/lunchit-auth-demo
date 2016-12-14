@@ -22,8 +22,8 @@ Grab the id and secret from auth0's dashboard for our client access application.
 Create a `.env` file
 
 ```
-AUTHO0_SECRET=[your secret here]
-AUTHO0_ID=[your id here]
+AUTH0_SECRET=[your secret here]
+AUTH0_ID=[your id here]
 ```
 Build our middleware
 > Disclaimer: this middleware is built to work with express api apps...
@@ -68,7 +68,7 @@ in `src/app.js` we want to include `src/utils/auth.js` file
 const auth = require
 ```
 
-Using React Router version 4, we want to create a Authorization Check function in our `app.js` component.
+Using React Router version 4, we want to create an Authorization Check function in our `app.js` component.
 ```
 const MatchWhenAuthorized = ({component: Component, logout: logout, ...rest}) =>
   <Match {...rest} render={props => auth.loggedIn() ?
